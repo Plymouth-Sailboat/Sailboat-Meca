@@ -1,0 +1,312 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:sailboatLib
+LIBS:ftdi
+LIBS:dc-dc
+LIBS:SailboatMainBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mti-1-XSens X1
+U 1 1 5A0FF7D7
+P 5500 3450
+F 0 "X1" H 5500 3450 60  0000 C CNN
+F 1 "Mti-1-XSens" H 5500 3450 60  0000 C CNN
+F 2 "Sockets:PLCC28" H 5500 3450 60  0001 C CNN
+F 3 "" H 5500 3450 60  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5800 2550
+NoConn ~ 5700 2550
+NoConn ~ 5600 2550
+NoConn ~ 5500 2550
+NoConn ~ 5400 2550
+NoConn ~ 5300 2550
+NoConn ~ 5700 4350
+NoConn ~ 5800 4350
+NoConn ~ 6800 3650
+NoConn ~ 6800 3750
+$Comp
+L GND #PWR018
+U 1 1 5A0FF85D
+P 5200 2450
+F 0 "#PWR018" H 5200 2200 50  0001 C CNN
+F 1 "GND" H 5200 2300 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2550 5200 2450
+$Comp
+L GND #PWR019
+U 1 1 5A0FF9FE
+P 6900 3150
+F 0 "#PWR019" H 6900 2900 50  0001 C CNN
+F 1 "GND" H 6900 3000 50  0000 C CNN
+F 2 "" H 6900 3150 50  0001 C CNN
+F 3 "" H 6900 3150 50  0001 C CNN
+	1    6900 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3150 6900 3150
+$Comp
+L GND #PWR020
+U 1 1 5A0FFA0D
+P 5300 4450
+F 0 "#PWR020" H 5300 4200 50  0001 C CNN
+F 1 "GND" H 5300 4300 50  0000 C CNN
+F 2 "" H 5300 4450 50  0001 C CNN
+F 3 "" H 5300 4450 50  0001 C CNN
+	1    5300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4350 5300 4450
+$Comp
+L GND #PWR021
+U 1 1 5A0FFA3C
+P 4100 3450
+F 0 "#PWR021" H 4100 3200 50  0001 C CNN
+F 1 "GND" H 4100 3300 50  0000 C CNN
+F 2 "" H 4100 3450 50  0001 C CNN
+F 3 "" H 4100 3450 50  0001 C CNN
+	1    4100 3450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4200 3450 4100 3450
+$Comp
+L PCA9306 U4
+U 1 1 5A0FFA4A
+P 8000 3250
+F 0 "U4" H 7700 3700 50  0000 L CNN
+F 1 "PCA9306" H 8200 3700 50  0000 L CNN
+F 2 "Housings_SSOP:SSOP-8_2.95x2.8mm_Pitch0.65mm" H 7600 3600 50  0001 C CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2750 8400 2750
+Wire Wire Line
+	8400 2650 8400 3150
+$Comp
+L R_Small R8
+U 1 1 5A0FFBAF
+P 8400 2550
+F 0 "R8" H 8430 2570 50  0000 L CNN
+F 1 "200K" H 8430 2510 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8400 2550 50  0001 C CNN
+F 3 "" H 8400 2550 50  0001 C CNN
+	1    8400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR022
+U 1 1 5A0FFC15
+P 8400 2350
+F 0 "#PWR022" H 8400 2200 50  0001 C CNN
+F 1 "+5V" H 8400 2490 50  0000 C CNN
+F 2 "" H 8400 2350 50  0001 C CNN
+F 3 "" H 8400 2350 50  0001 C CNN
+	1    8400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2350 8400 2450
+Connection ~ 8400 2750
+$Comp
+L +1V8 #PWR023
+U 1 1 5A0FFC9E
+P 7900 2350
+F 0 "#PWR023" H 7900 2200 50  0001 C CNN
+F 1 "+1V8" H 7900 2490 50  0000 C CNN
+F 2 "" H 7900 2350 50  0001 C CNN
+F 3 "" H 7900 2350 50  0001 C CNN
+	1    7900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2350 7900 2750
+Text HLabel 8850 3250 2    60   BiDi ~ 0
+SCL-XSens
+Text HLabel 8850 3350 2    60   BiDi ~ 0
+SDA-XSens
+$Comp
+L R_Small R10
+U 1 1 5A0FFD30
+P 8750 2950
+F 0 "R10" H 8780 2970 50  0000 L CNN
+F 1 "4K7" H 8780 2910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8750 2950 50  0001 C CNN
+F 3 "" H 8750 2950 50  0001 C CNN
+	1    8750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R9
+U 1 1 5A0FFD6D
+P 8550 2950
+F 0 "R9" H 8580 2970 50  0000 L CNN
+F 1 "4K7" H 8580 2910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8550 2950 50  0001 C CNN
+F 3 "" H 8550 2950 50  0001 C CNN
+	1    8550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3250 8850 3250
+Wire Wire Line
+	8850 3350 8400 3350
+Wire Wire Line
+	8550 3350 8550 3050
+Connection ~ 8550 3350
+Wire Wire Line
+	8750 3250 8750 3050
+Connection ~ 8750 3250
+Wire Wire Line
+	8400 2350 8750 2350
+Wire Wire Line
+	8550 2350 8550 2850
+Wire Wire Line
+	8750 2350 8750 2850
+Connection ~ 8550 2350
+$Comp
+L GND #PWR024
+U 1 1 5A0FFF2F
+P 8000 3850
+F 0 "#PWR024" H 8000 3600 50  0001 C CNN
+F 1 "GND" H 8000 3700 50  0000 C CNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 "" H 8000 3850 50  0001 C CNN
+	1    8000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3750 8000 3850
+Wire Wire Line
+	6800 3250 7600 3250
+Wire Wire Line
+	7600 3350 6800 3350
+$Comp
+L R_Small R7
+U 1 1 5A100125
+P 7500 2950
+F 0 "R7" H 7530 2970 50  0000 L CNN
+F 1 "2K7" H 7530 2910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7500 2950 50  0001 C CNN
+F 3 "" H 7500 2950 50  0001 C CNN
+	1    7500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 5A100205
+P 7250 2950
+F 0 "R6" H 7280 2970 50  0000 L CNN
+F 1 "2K7" H 7280 2910 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7250 2950 50  0001 C CNN
+F 3 "" H 7250 2950 50  0001 C CNN
+	1    7250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2350 7900 2350
+Wire Wire Line
+	7500 2350 7500 2850
+Wire Wire Line
+	7250 2350 7250 2850
+Connection ~ 7500 2350
+Wire Wire Line
+	7250 3050 7250 3250
+Connection ~ 7250 3250
+Wire Wire Line
+	7500 3050 7500 3350
+Connection ~ 7500 3350
+$Comp
+L +3.3V #PWR025
+U 1 1 5A1004E5
+P 4100 3150
+F 0 "#PWR025" H 4100 3000 50  0001 C CNN
+F 1 "+3.3V" H 4100 3290 50  0000 C CNN
+F 2 "" H 4100 3150 50  0001 C CNN
+F 3 "" H 4100 3150 50  0001 C CNN
+	1    4100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3150 4100 3150
+NoConn ~ 4200 3250
+$Comp
+L +1V8 #PWR026
+U 1 1 5A1006B3
+P 4100 3350
+F 0 "#PWR026" H 4100 3200 50  0001 C CNN
+F 1 "+1V8" H 4100 3490 50  0000 C CNN
+F 2 "" H 4100 3350 50  0001 C CNN
+F 3 "" H 4100 3350 50  0001 C CNN
+	1    4100 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3350 4100 3350
+NoConn ~ 6800 3550
+NoConn ~ 4200 3550
+NoConn ~ 4200 3650
+NoConn ~ 4200 3750
+NoConn ~ 5500 4350
+NoConn ~ 5400 4350
+NoConn ~ 5600 4350
+NoConn ~ 5200 4350
+Text HLabel 6900 3450 2    60   BiDi ~ 0
+DataReady
+Wire Wire Line
+	6900 3450 6800 3450
+$EndSCHEMATC
