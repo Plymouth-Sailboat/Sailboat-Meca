@@ -1,0 +1,296 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Arduino Interface-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3300 2300 2    60   Input ~ 0
+BAT+
+Wire Wire Line
+	3100 2300 3300 2300
+$Comp
+L GND #PWR02
+U 1 1 5A0C377E
+P 3300 2400
+F 0 "#PWR02" H 3300 2150 50  0001 C CNN
+F 1 "GND" H 3300 2250 50  0000 C CNN
+F 2 "" H 3300 2400 50  0001 C CNN
+F 3 "" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3100 2300 0    60   BiDi ~ 0
+BAT+
+Text HLabel 3100 2400 0    60   BiDi ~ 0
+BAT-
+$Comp
+L GND #PWR03
+U 1 1 5A0C8A1D
+P 6900 1600
+F 0 "#PWR03" H 6900 1350 50  0001 C CNN
+F 1 "GND" H 6900 1450 50  0000 C CNN
+F 2 "" H 6900 1600 50  0001 C CNN
+F 3 "" H 6900 1600 50  0001 C CNN
+	1    6900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A0C8A34
+P 6400 1600
+F 0 "R1" H 6430 1620 50  0000 L CNN
+F 1 "330" H 6430 1560 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6400 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_Small D1
+U 1 1 5A0C8A81
+P 6700 1600
+F 0 "D1" H 6650 1725 50  0000 L CNN
+F 1 "G" H 6525 1500 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" V 6700 1600 50  0001 C CNN
+F 3 "" V 6700 1600 50  0001 C CNN
+	1    6700 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 1600 6800 1600
+Wire Wire Line
+	6600 1600 6500 1600
+Wire Wire Line
+	6300 1600 6200 1600
+Text GLabel 5800 2150 0    60   Input ~ 0
+BAT+
+$Comp
+L GND #PWR04
+U 1 1 5A0F1D5F
+P 6550 2550
+F 0 "#PWR04" H 6550 2300 50  0001 C CNN
+F 1 "GND" H 6550 2400 50  0000 C CNN
+F 2 "" H 6550 2550 50  0001 C CNN
+F 3 "" H 6550 2550 50  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 2150 2    60   BiDi ~ 0
+5V_Raspberry
+$Comp
+L L7805 U1
+U 1 1 5A9587EC
+P 6550 2150
+F 0 "U1" H 6400 2275 50  0000 C CNN
+F 1 "L7805" H 6550 2275 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6575 2000 50  0001 L CIN
+F 3 "" H 6550 2100 50  0001 C CNN
+	1    6550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2450 6550 2550
+$Comp
+L L_Small L1
+U 1 1 5A95EA60
+P 6100 2150
+F 0 "L1" H 6130 2190 50  0000 L CNN
+F 1 "3.3uH" H 5850 2150 50  0000 L CNN
+F 2 "Inductors_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1" H 6100 2150 50  0001 C CNN
+F 3 "" H 6100 2150 50  0001 C CNN
+	1    6100 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2150 6200 2150
+Wire Wire Line
+	5800 2150 6000 2150
+Wire Wire Line
+	5900 2350 5900 2450
+Wire Wire Line
+	5900 2450 6550 2450
+Connection ~ 5900 2150
+Text GLabel 5750 4950 0    60   Input ~ 0
+BAT+
+$Comp
+L GND #PWR05
+U 1 1 5A960D95
+P 6500 5350
+F 0 "#PWR05" H 6500 5100 50  0001 C CNN
+F 1 "GND" H 6500 5200 50  0000 C CNN
+F 2 "" H 6500 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6500 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 4950 2    60   BiDi ~ 0
+5V_Servos
+$Comp
+L L7805 U2
+U 1 1 5A960D9C
+P 6500 4950
+F 0 "U2" H 6350 5075 50  0000 C CNN
+F 1 "L7805" H 6500 5075 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6525 4800 50  0001 L CIN
+F 3 "" H 6500 4900 50  0001 C CNN
+	1    6500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5250 6500 5350
+$Comp
+L L_Small L2
+U 1 1 5A960DAC
+P 6050 4950
+F 0 "L2" H 6080 4990 50  0000 L CNN
+F 1 "3.3uH" H 5800 4950 50  0000 L CNN
+F 2 "Inductors_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1" H 6050 4950 50  0001 C CNN
+F 3 "" H 6050 4950 50  0001 C CNN
+	1    6050 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4950 6150 4950
+Wire Wire Line
+	5750 4950 5950 4950
+Wire Wire Line
+	5850 5150 5850 5250
+Wire Wire Line
+	5850 5250 6500 5250
+Connection ~ 5850 4950
+Wire Wire Line
+	7300 2150 6850 2150
+Wire Wire Line
+	7250 4950 6800 4950
+$Comp
+L L7805 U3
+U 1 1 5A97895C
+P 6600 3500
+F 0 "U3" H 6450 3625 50  0000 C CNN
+F 1 "L7805" H 6600 3625 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6625 3350 50  0001 L CIN
+F 3 "" H 6600 3450 50  0001 C CNN
+	1    6600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A9789B4
+P 6600 3900
+F 0 "#PWR06" H 6600 3650 50  0001 C CNN
+F 1 "GND" H 6600 3750 50  0000 C CNN
+F 2 "" H 6600 3900 50  0001 C CNN
+F 3 "" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 5A9789DA
+P 6150 3600
+F 0 "C3" H 6160 3670 50  0000 L CNN
+F 1 "0.33uF" H 6160 3520 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 6150 3600 50  0001 C CNN
+F 3 "" H 6150 3600 50  0001 C CNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 5A978A20
+P 7050 3600
+F 0 "C4" H 7060 3670 50  0000 L CNN
+F 1 "0.1uF" H 7060 3520 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 7050 3600 50  0001 C CNN
+F 3 "" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3500 6300 3500
+Connection ~ 6150 3500
+Wire Wire Line
+	6150 3700 6150 3800
+Wire Wire Line
+	6150 3800 7050 3800
+Wire Wire Line
+	7050 3800 7050 3700
+Connection ~ 6600 3800
+Wire Wire Line
+	6900 3500 7300 3500
+Wire Wire Line
+	6600 3900 6600 3800
+Text GLabel 5900 3500 0    60   Input ~ 0
+BAT+
+Text HLabel 7300 3500 2    60   BiDi ~ 0
+5V_Sensors
+Connection ~ 7050 3500
+Wire Wire Line
+	3300 2400 3100 2400
+Text HLabel 6200 1600 0    60   BiDi ~ 0
+5V_Raspberry
+$Comp
+L C_Small C2
+U 1 1 5A960DA2
+P 5850 5050
+F 0 "C2" H 5860 5120 50  0000 L CNN
+F 1 "4.7uF" H 5860 4970 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5850 5050 50  0001 C CNN
+F 3 "" H 5850 5050 50  0001 C CNN
+	1    5850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5A958A75
+P 5900 2250
+F 0 "C1" H 5910 2320 50  0000 L CNN
+F 1 "4.7uF" H 5910 2170 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5900 2250 50  0001 C CNN
+F 3 "" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
