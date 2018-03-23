@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:RPi Interface-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -392,4 +393,33 @@ Text GLabel 9250 4450 2    60   Input ~ 0
 RC_5
 Text GLabel 10150 4450 2    60   Input ~ 0
 RC_6
+$Comp
+L Conn_01x03_Female J4
+U 1 1 5AB545C7
+P 9850 4950
+F 0 "J4" H 9850 5150 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 9850 4750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9850 4950 50  0001 C CNN
+F 3 "" H 9850 4950 50  0001 C CNN
+	1    9850 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5AB5461E
+P 10150 4850
+F 0 "#PWR018" H 10150 4600 50  0001 C CNN
+F 1 "GND" H 10150 4700 50  0000 C CNN
+F 2 "" H 10150 4850 50  0001 C CNN
+F 3 "" H 10150 4850 50  0001 C CNN
+	1    10150 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 4850 10050 4850
+Text GLabel 10150 4950 2    60   Input ~ 0
+5V-Sensors
+Wire Wire Line
+	10150 4950 10050 4950
+NoConn ~ 10050 5050
 $EndSCHEMATC

@@ -237,44 +237,8 @@ Wire Wire Line
 	2000 5050 1900 5050
 Wire Wire Line
 	1900 5150 2000 5150
-$Comp
-L R_Small R2
-U 1 1 5A965541
-P 2100 4450
-F 0 "R2" H 2130 4470 50  0000 L CNN
-F 1 "4k7" H 1900 4400 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2100 4450 50  0001 C CNN
-F 3 "" H 2100 4450 50  0001 C CNN
-	1    2100 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R6
-U 1 1 5A9655AD
-P 2200 4650
-F 0 "R6" H 2230 4670 50  0000 L CNN
-F 1 "4k7" H 2230 4610 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2200 4650 50  0001 C CNN
-F 3 "" H 2200 4650 50  0001 C CNN
-	1    2200 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4750 2200 4950
-Connection ~ 2200 4950
-Wire Wire Line
-	2100 4550 2100 4850
-Connection ~ 2100 4850
 Text HLabel 2000 5050 2    60   BiDi ~ 0
 5V-Sensors
-Text HLabel 2200 4250 2    60   BiDi ~ 0
-5V-Sensors
-Wire Wire Line
-	2100 4350 2100 4250
-Wire Wire Line
-	2100 4250 2200 4250
-Wire Wire Line
-	2200 4250 2200 4550
 $Comp
 L Conn_01x04 J17
 U 1 1 5A965B84
@@ -309,44 +273,8 @@ Wire Wire Line
 	3500 5050 3400 5050
 Wire Wire Line
 	3400 5150 3500 5150
-$Comp
-L R_Small R8
-U 1 1 5A965B96
-P 3600 4450
-F 0 "R8" H 3630 4470 50  0000 L CNN
-F 1 "4k7" H 3400 4400 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3600 4450 50  0001 C CNN
-F 3 "" H 3600 4450 50  0001 C CNN
-	1    3600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R10
-U 1 1 5A965B9C
-P 3700 4650
-F 0 "R10" H 3730 4670 50  0000 L CNN
-F 1 "4k7" H 3730 4610 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3700 4650 50  0001 C CNN
-F 3 "" H 3700 4650 50  0001 C CNN
-	1    3700 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 4750 3700 4950
-Connection ~ 3700 4950
-Wire Wire Line
-	3600 4550 3600 4850
-Connection ~ 3600 4850
 Text HLabel 3500 5050 2    60   BiDi ~ 0
 5V-Sensors
-Text HLabel 3700 4250 2    60   BiDi ~ 0
-5V-Sensors
-Wire Wire Line
-	3600 4350 3600 4250
-Wire Wire Line
-	3600 4250 3700 4250
-Wire Wire Line
-	3700 4250 3700 4550
 $Comp
 L Conn_01x04 J16
 U 1 1 5A965E0D
@@ -381,44 +309,8 @@ Wire Wire Line
 	2000 6200 1900 6200
 Wire Wire Line
 	1900 6300 2000 6300
-$Comp
-L R_Small R4
-U 1 1 5A965E1F
-P 2100 5600
-F 0 "R4" H 2130 5620 50  0000 L CNN
-F 1 "4k7" H 1900 5550 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2100 5600 50  0001 C CNN
-F 3 "" H 2100 5600 50  0001 C CNN
-	1    2100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R7
-U 1 1 5A965E25
-P 2200 5800
-F 0 "R7" H 2230 5820 50  0000 L CNN
-F 1 "4k7" H 2230 5760 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2200 5800 50  0001 C CNN
-F 3 "" H 2200 5800 50  0001 C CNN
-	1    2200 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 5900 2200 6100
-Connection ~ 2200 6100
-Wire Wire Line
-	2100 5700 2100 6000
-Connection ~ 2100 6000
 Text HLabel 2000 6200 2    60   BiDi ~ 0
 5V-Sensors
-Text HLabel 2200 5400 2    60   BiDi ~ 0
-5V-Sensors
-Wire Wire Line
-	2100 5500 2100 5400
-Wire Wire Line
-	2100 5400 2200 5400
-Wire Wire Line
-	2200 5400 2200 5700
 $Comp
 L Conn_01x04 J18
 U 1 1 5A965E34
@@ -453,44 +345,8 @@ Wire Wire Line
 	3500 6200 3400 6200
 Wire Wire Line
 	3400 6300 3500 6300
-$Comp
-L R_Small R9
-U 1 1 5A965E46
-P 3600 5600
-F 0 "R9" H 3630 5620 50  0000 L CNN
-F 1 "4k7" H 3400 5550 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3600 5600 50  0001 C CNN
-F 3 "" H 3600 5600 50  0001 C CNN
-	1    3600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R11
-U 1 1 5A965E4C
-P 3700 5800
-F 0 "R11" H 3730 5820 50  0000 L CNN
-F 1 "4k7" H 3730 5760 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3700 5800 50  0001 C CNN
-F 3 "" H 3700 5800 50  0001 C CNN
-	1    3700 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 5900 3700 6100
-Connection ~ 3700 6100
-Wire Wire Line
-	3600 5700 3600 6000
-Connection ~ 3600 6000
 Text HLabel 3500 6200 2    60   BiDi ~ 0
 5V-Sensors
-Text HLabel 3700 5400 2    60   BiDi ~ 0
-5V-Sensors
-Wire Wire Line
-	3600 5500 3600 5400
-Wire Wire Line
-	3600 5400 3700 5400
-Wire Wire Line
-	3700 5400 3700 5700
 Wire Notes Line
 	1000 4100 4450 4100
 Wire Notes Line

@@ -3,7 +3,7 @@
   (general
     (links 129)
     (no_connects 0)
-    (area 102.184999 53.289999 188.010001 157.530001)
+    (area 95.915 36.094999 192.278572 164.535)
     (thickness 1.6)
     (drawings 48)
     (tracks 607)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -2920,7 +2920,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.5mm (layer F.Cu) (tedit 5A982DDC) (tstamp 5A9853C7)
-    (at 177.165 55.88)
+    (at 177.165 54.61)
     (descr "Mounting Hole 2.5mm, no annular")
     (tags "mounting hole 2.5mm no annular")
     (attr virtual)
@@ -3463,7 +3463,7 @@
   (gr_circle (center 184.15 59.69) (end 181.61 59.69) (layer Eco1.User) (width 0.2))
   (gr_circle (center 184.15 118.11) (end 181.61 118.11) (layer Eco1.User) (width 0.2))
   (gr_circle (center 135.255 118.11) (end 132.715 118.11) (layer Eco1.User) (width 0.2))
-  (gr_circle (center 177.165 55.88) (end 179.07 55.88) (layer Eco2.User) (width 0.2))
+  (gr_circle (center 177.165 54.61) (end 179.07 54.61) (layer Eco2.User) (width 0.2))
   (gr_circle (center 128.905 55.88) (end 130.81 55.88) (layer Eco2.User) (width 0.2))
   (gr_circle (center 177.165 137.16) (end 179.07 137.16) (layer Eco2.User) (width 0.2))
   (gr_line (start 126.365 142.24) (end 126.365 40.64) (angle 90) (layer Eco2.User) (width 0.2))

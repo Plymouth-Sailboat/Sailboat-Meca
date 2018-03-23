@@ -451,4 +451,38 @@ F 3 "" H 6400 3100 50  0001 C CNN
 $EndComp
 NoConn ~ 6200 2900
 NoConn ~ 6200 2800
+$Comp
+L R R3
+U 1 1 5AB57136
+P 9500 5600
+F 0 "R3" V 9580 5600 50  0000 C CNN
+F 1 "4k7" V 9500 5600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9430 5600 50  0001 C CNN
+F 3 "" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5AB57198
+P 9400 5650
+F 0 "R2" V 9480 5650 50  0000 C CNN
+F 1 "4k7" V 9400 5650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9330 5650 50  0001 C CNN
+F 3 "" H 9400 5650 50  0001 C CNN
+	1    9400 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 9500 5950 2    60   BiDi ~ 0
+5V_Sensors
+Wire Wire Line
+	9500 5750 9500 5950
+Wire Wire Line
+	9400 5800 9400 5950
+Wire Wire Line
+	9400 5950 9500 5950
+Wire Wire Line
+	9500 5450 9500 5250
+Wire Wire Line
+	9400 5500 9400 5150
 $EndSCHEMATC
