@@ -56,6 +56,7 @@ F3 "BAT-" B L 4350 1250 60
 F4 "5V_Servos" B L 4350 1400 60 
 F5 "5V_Raspberry" B L 4350 1600 60 
 F6 "5V_Sensors" B L 4350 1500 60 
+F7 "A3" B R 5350 1650 60 
 $EndSheet
 $Sheet
 S 3000 1000 900  4250
@@ -175,7 +176,6 @@ F74 "37" B L 5700 4450 60
 F75 "35" B L 5700 4350 60 
 F76 "53" B L 5700 5150 60 
 F77 "51" B L 5700 5050 60 
-F78 "5V_Sensors" B L 5700 1600 60 
 $EndSheet
 Wire Wire Line
 	3900 1150 4350 1150
@@ -310,30 +310,30 @@ Wire Wire Line
 	3900 3550 4000 3550
 Wire Wire Line
 	4000 3650 3900 3650
-Text GLabel 7050 1550 2    60   BiDi ~ 0
+Text GLabel 5600 2500 0    60   BiDi ~ 0
 RC1
-Text GLabel 7050 1450 2    60   BiDi ~ 0
+Text GLabel 5600 2400 0    60   BiDi ~ 0
 RC2
-Text GLabel 7050 1350 2    60   BiDi ~ 0
+Text GLabel 5600 2300 0    60   BiDi ~ 0
 RC3
-Text GLabel 7050 1250 2    60   BiDi ~ 0
+Text GLabel 5600 2200 0    60   BiDi ~ 0
 RC4
-Text GLabel 7050 1150 2    60   BiDi ~ 0
+Text GLabel 5600 2100 0    60   BiDi ~ 0
 RC5
 Wire Wire Line
-	7050 1150 6950 1150
+	5700 2100 5600 2100
 Wire Wire Line
-	6950 1250 7050 1250
+	5600 2200 5700 2200
 Wire Wire Line
-	7050 1350 6950 1350
+	5700 2300 5600 2300
 Wire Wire Line
-	6950 1450 7050 1450
+	5600 2400 5700 2400
 Wire Wire Line
-	7050 1550 6950 1550
-Text GLabel 7050 1050 2    60   BiDi ~ 0
+	5700 2500 5600 2500
+Text GLabel 5600 2000 0    60   BiDi ~ 0
 RC6
 Wire Wire Line
-	7050 1050 6950 1050
+	5700 2000 5600 2000
 Text GLabel 4000 3850 2    60   BiDi ~ 0
 TX_1
 Text GLabel 4000 3950 2    60   BiDi ~ 0
@@ -368,17 +368,10 @@ Wire Wire Line
 	6950 2950 7050 2950
 NoConn ~ 5700 1800
 NoConn ~ 5700 1900
-NoConn ~ 5700 2000
-NoConn ~ 5700 2100
-NoConn ~ 5700 2200
-NoConn ~ 5700 2300
-NoConn ~ 5700 2400
-NoConn ~ 5700 2500
 NoConn ~ 5700 2600
 NoConn ~ 5700 2700
 NoConn ~ 5700 2800
 NoConn ~ 5700 2900
-NoConn ~ 5700 3000
 NoConn ~ 5700 3750
 NoConn ~ 5700 3850
 NoConn ~ 5700 3950
@@ -412,7 +405,6 @@ NoConn ~ 6950 2350
 NoConn ~ 6950 2250
 NoConn ~ 5700 950 
 NoConn ~ 5700 1050
-NoConn ~ 5700 1150
 NoConn ~ 5700 1450
 Text GLabel 2900 3200 0    60   BiDi ~ 0
 SCK
@@ -455,23 +447,31 @@ Wire Wire Line
 Wire Wire Line
 	7050 3650 6950 3650
 Wire Wire Line
-	5700 1250 5450 1250
-Wire Wire Line
-	5450 1250 5450 950 
-Wire Wire Line
-	5450 950  4250 950 
-Wire Wire Line
-	4250 950  4250 1150
-Connection ~ 4250 1150
-Wire Wire Line
 	4350 1600 3900 1600
-Wire Wire Line
-	4250 1500 4250 1800
-Wire Wire Line
-	4250 1800 5550 1800
-Wire Wire Line
-	5550 1800 5550 1600
-Wire Wire Line
-	5550 1600 5700 1600
 Connection ~ 4250 1500
+NoConn ~ 6950 1050
+NoConn ~ 6950 1150
+NoConn ~ 6950 1250
+NoConn ~ 6950 1350
+NoConn ~ 6950 1450
+NoConn ~ 6950 1550
+NoConn ~ 5700 1250
+Wire Wire Line
+	5350 1650 5450 1650
+Wire Wire Line
+	5450 1650 5450 1850
+Wire Wire Line
+	5450 1850 5250 1850
+Wire Wire Line
+	5250 1850 5250 3000
+Wire Wire Line
+	5250 3000 5700 3000
+Wire Wire Line
+	4250 1500 4250 950 
+Wire Wire Line
+	4250 950  5500 950 
+Wire Wire Line
+	5500 950  5500 1150
+Wire Wire Line
+	5500 1150 5700 1150
 $EndSCHEMATC

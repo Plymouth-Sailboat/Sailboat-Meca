@@ -473,8 +473,6 @@ F 3 "" H 9400 5650 50  0001 C CNN
 	1    9400 5650
 	1    0    0    -1  
 $EndComp
-Text HLabel 9500 5950 2    60   BiDi ~ 0
-5V_Sensors
 Wire Wire Line
 	9500 5750 9500 5950
 Wire Wire Line
@@ -485,4 +483,6 @@ Wire Wire Line
 	9500 5450 9500 5250
 Wire Wire Line
 	9400 5500 9400 5150
+Text HLabel 9500 5950 2    60   BiDi ~ 0
+5V
 $EndSCHEMATC

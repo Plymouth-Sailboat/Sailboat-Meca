@@ -83,34 +83,6 @@ F30 "12_RPi" B R 9200 2300 60
 $EndSheet
 Wire Wire Line
 	9200 900  9350 900 
-NoConn ~ 9200 1100
-NoConn ~ 9200 1200
-NoConn ~ 9200 1300
-NoConn ~ 9200 1500
-NoConn ~ 9200 1600
-NoConn ~ 9200 1800
-NoConn ~ 9200 1900
-NoConn ~ 9200 2000
-NoConn ~ 7850 2100
-NoConn ~ 7850 2000
-NoConn ~ 7850 1900
-NoConn ~ 7850 1700
-NoConn ~ 7850 1600
-NoConn ~ 7850 1500
-NoConn ~ 7850 1300
-NoConn ~ 7850 1200
-NoConn ~ 7850 1100
-NoConn ~ 9200 2200
-NoConn ~ 9200 2300
-NoConn ~ 9200 2500
-NoConn ~ 9200 2600
-NoConn ~ 9200 2700
-NoConn ~ 7850 2700
-NoConn ~ 7850 2600
-NoConn ~ 7850 2500
-NoConn ~ 7850 2400
-NoConn ~ 7850 2300
-NoConn ~ 7850 2200
 $Sheet
 S 6650 550  900  4250
 U 5A0C1F5F

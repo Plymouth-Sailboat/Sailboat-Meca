@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -287,4 +287,245 @@ Wire Wire Line
 	5350 4600 5450 4600
 NoConn ~ 4750 2700
 NoConn ~ 4750 3500
+$Comp
+L GND #PWR09
+U 1 1 5B0E51D8
+P 7200 2900
+F 0 "#PWR09" H 7200 2650 50  0001 C CNN
+F 1 "GND" H 7200 2750 50  0000 C CNN
+F 2 "" H 7200 2900 50  0001 C CNN
+F 3 "" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5B0E51DE
+P 7200 3300
+F 0 "#PWR010" H 7200 3050 50  0001 C CNN
+F 1 "GND" H 7200 3150 50  0000 C CNN
+F 2 "" H 7200 3300 50  0001 C CNN
+F 3 "" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5B0E51E4
+P 7200 3600
+F 0 "#PWR011" H 7200 3350 50  0001 C CNN
+F 1 "GND" H 7200 3450 50  0000 C CNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5B0E51EA
+P 6500 3900
+F 0 "#PWR012" H 6500 3650 50  0001 C CNN
+F 1 "GND" H 6500 3750 50  0000 C CNN
+F 2 "" H 6500 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5B0E51F0
+P 6500 3100
+F 0 "#PWR013" H 6500 2850 50  0001 C CNN
+F 1 "GND" H 6500 2950 50  0000 C CNN
+F 2 "" H 6500 3100 50  0001 C CNN
+F 3 "" H 6500 3100 50  0001 C CNN
+	1    6500 3100
+	0    1    1    0   
+$EndComp
+Text HLabel 7200 2700 2    60   BiDi ~ 0
+5V_RPi
+Text HLabel 7200 2800 2    60   BiDi ~ 0
+5V_RPi
+Text HLabel 6500 2800 0    60   BiDi ~ 0
+2_RPi
+Text HLabel 6500 2900 0    60   BiDi ~ 0
+3_RPi
+Text HLabel 6500 3000 0    60   BiDi ~ 0
+4_RPi
+Text HLabel 6500 3200 0    60   BiDi ~ 0
+17_RPi
+Text HLabel 6500 3300 0    60   BiDi ~ 0
+27_RPi
+Text HLabel 6500 3400 0    60   BiDi ~ 0
+22_RPi
+Text HLabel 6500 3600 0    60   BiDi ~ 0
+10_RPi
+Text HLabel 6500 3700 0    60   BiDi ~ 0
+9_RPi
+Text HLabel 6500 3800 0    60   BiDi ~ 0
+11_RPi
+Text HLabel 7200 3000 2    60   BiDi ~ 0
+14_RPi
+Text HLabel 7200 3100 2    60   BiDi ~ 0
+15_RPi
+Text HLabel 7200 3200 2    60   BiDi ~ 0
+18_RPi
+Text HLabel 7200 3400 2    60   BiDi ~ 0
+23_RPi
+Text HLabel 7200 3500 2    60   BiDi ~ 0
+24_RPi
+Text HLabel 7200 3700 2    60   BiDi ~ 0
+25_RPi
+Text HLabel 7200 3800 2    60   BiDi ~ 0
+8_RPi
+Text HLabel 7200 3900 2    60   BiDi ~ 0
+7_RPi
+Wire Wire Line
+	6600 2700 6500 2700
+Wire Wire Line
+	6500 2800 6600 2800
+Wire Wire Line
+	6600 2900 6500 2900
+Wire Wire Line
+	6500 3000 6600 3000
+Wire Wire Line
+	6600 3100 6500 3100
+Wire Wire Line
+	6500 3200 6600 3200
+Wire Wire Line
+	6600 3300 6500 3300
+Wire Wire Line
+	6500 3400 6600 3400
+Wire Wire Line
+	6600 3500 6500 3500
+Wire Wire Line
+	6500 3600 6600 3600
+Wire Wire Line
+	6600 3700 6500 3700
+Wire Wire Line
+	6500 3800 6600 3800
+Wire Wire Line
+	6600 3900 6500 3900
+Wire Wire Line
+	7100 3900 7200 3900
+Wire Wire Line
+	7200 3800 7100 3800
+Wire Wire Line
+	7100 3700 7200 3700
+Wire Wire Line
+	7200 3600 7100 3600
+Wire Wire Line
+	7100 3500 7200 3500
+Wire Wire Line
+	7200 3400 7100 3400
+Wire Wire Line
+	7100 3300 7200 3300
+Wire Wire Line
+	7200 3200 7100 3200
+Wire Wire Line
+	7100 3100 7200 3100
+Wire Wire Line
+	7200 3000 7100 3000
+Wire Wire Line
+	7100 2900 7200 2900
+Wire Wire Line
+	7200 2800 7100 2800
+Wire Wire Line
+	7100 2700 7200 2700
+$Comp
+L Conn_02x20_Odd_Even J5
+U 1 1 5B0E5223
+P 6900 3600
+F 0 "J5" H 6950 4600 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 6950 2500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 6900 3600 50  0001 C CNN
+F 3 "" H 6900 3600 50  0001 C CNN
+	1    6900 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5B0E5229
+P 7200 4100
+F 0 "#PWR014" H 7200 3850 50  0001 C CNN
+F 1 "GND" H 7200 3950 50  0000 C CNN
+F 2 "" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5B0E522F
+P 7200 4300
+F 0 "#PWR015" H 7200 4050 50  0001 C CNN
+F 1 "GND" H 7200 4150 50  0000 C CNN
+F 2 "" H 7200 4300 50  0001 C CNN
+F 3 "" H 7200 4300 50  0001 C CNN
+	1    7200 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5B0E5235
+P 6500 4600
+F 0 "#PWR016" H 6500 4350 50  0001 C CNN
+F 1 "GND" H 6500 4450 50  0000 C CNN
+F 2 "" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0001 C CNN
+	1    6500 4600
+	0    1    1    0   
+$EndComp
+Text HLabel 6500 4000 0    60   BiDi ~ 0
+ID_SD
+Text HLabel 7200 4000 2    60   BiDi ~ 0
+ID_SC
+Text HLabel 6500 4100 0    60   BiDi ~ 0
+5_RPi
+Text HLabel 6500 4200 0    60   BiDi ~ 0
+6_RPi
+Text HLabel 6500 4300 0    60   BiDi ~ 0
+13_RPi
+Text HLabel 6500 4400 0    60   BiDi ~ 0
+19_RPi
+Text HLabel 6500 4500 0    60   BiDi ~ 0
+26_RPi
+Text HLabel 7200 4600 2    60   BiDi ~ 0
+21_RPi
+Text HLabel 7200 4500 2    60   BiDi ~ 0
+20_RPi
+Text HLabel 7200 4400 2    60   BiDi ~ 0
+16_RPi
+Text HLabel 7200 4200 2    60   BiDi ~ 0
+12_RPi
+Wire Wire Line
+	6600 4000 6500 4000
+Wire Wire Line
+	6500 4100 6600 4100
+Wire Wire Line
+	6600 4200 6500 4200
+Wire Wire Line
+	6500 4300 6600 4300
+Wire Wire Line
+	6600 4400 6500 4400
+Wire Wire Line
+	6500 4500 6600 4500
+Wire Wire Line
+	6600 4600 6500 4600
+Wire Wire Line
+	7200 4000 7100 4000
+Wire Wire Line
+	7200 4100 7100 4100
+Wire Wire Line
+	7100 4200 7200 4200
+Wire Wire Line
+	7200 4300 7100 4300
+Wire Wire Line
+	7100 4400 7200 4400
+Wire Wire Line
+	7200 4500 7100 4500
+Wire Wire Line
+	7100 4600 7200 4600
+NoConn ~ 6500 2700
+NoConn ~ 6500 3500
 $EndSCHEMATC
