@@ -2,6 +2,8 @@
 This repository lists all the mechanical documents of the sailboat - Electronic Board and 3D Parts. It is used in conjunction with the [Arduino Repository](https://github.com/Plymouth-Sailboat/SailBoatArduinoInterface) and the [Raspberry Pi Repository](https://github.com/Plymouth-Sailboat/SailBoatROS).
 This project was done by [Ulysse Vautier](https://ulyssevautier.github.io/) for his PhD in Autonomous Sailboat Navigation System at the University of Plymouth.
 
+**A complete tutorial is available on the** [wiki](https://github.com/Plymouth-Sailboat/Sailboat-Meca/wiki).
+
 The goal of such a project is to make an affordable, accessible and expandable control box to transform a RC sailboat into an autonomous Sailboat easily. The control box costs £86 to make.  
 Once connected to the different sensors and actuators of the sailboat, it transforms it into an autonomous sailboat with already implemented navigation algorithms. Please see the [list of control algorithms](https://github.com/Plymouth-Sailboat/SailBoatROS/wiki/Controllers-List) already implemented.
 
