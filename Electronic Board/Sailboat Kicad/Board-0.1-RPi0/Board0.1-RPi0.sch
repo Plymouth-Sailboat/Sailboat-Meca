@@ -58,76 +58,6 @@ F 3 "" H 2450 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_02x12_Odd_Even J2
-U 1 1 5B9A869B
-P 1200 6950
-F 0 "J2" H 1250 7550 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 1250 6250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm" H 1200 6950 50  0001 C CNN
-F 3 "" H 1200 6950 50  0001 C CNN
-	1    1200 6950
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x12_Odd_Even J4
-U 1 1 5B9A86F0
-P 2500 5450
-F 0 "J4" H 2550 6050 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 2550 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm" H 2500 5450 50  0001 C CNN
-F 3 "" H 2500 5450 50  0001 C CNN
-	1    2500 5450
-	0    1    -1   0   
-$EndComp
-$Comp
-L Conn_02x12_Odd_Even J6
-U 1 1 5B9A8755
-P 3700 6950
-F 0 "J6" H 3750 7550 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 3750 6250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm" H 3700 6950 50  0001 C CNN
-F 3 "" H 3700 6950 50  0001 C CNN
-	1    3700 6950
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_01x01 J3
-U 1 1 5B9A8817
-P 1200 5600
-F 0 "J3" H 1200 5700 50  0000 C CNN
-F 1 "Conn_01x01" H 1200 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1200 5600 50  0001 C CNN
-F 3 "" H 1200 5600 50  0001 C CNN
-	1    1200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J5
-U 1 1 5B9A8879
-P 3600 5600
-F 0 "J5" H 3600 5700 50  0000 C CNN
-F 1 "Conn_01x01" H 3600 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3600 5600 50  0001 C CNN
-F 3 "" H 3600 5600 50  0001 C CNN
-	1    3600 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 5B9A8D5B
-P 4100 7450
-F 0 "#PWR01" H 4100 7200 50  0001 C CNN
-F 1 "GND" H 4100 7300 50  0000 C CNN
-F 2 "" H 4100 7450 50  0001 C CNN
-F 3 "" H 4100 7450 50  0001 C CNN
-	1    4100 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 7450 4000 7450
-Wire Wire Line
-	3400 7450 3500 7450
-$Comp
 L +5V #PWR02
 U 1 1 5B9A8F7E
 P 1550 4050
@@ -259,17 +189,6 @@ F 3 "" H 2500 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 800  2800 800 
-$Comp
-L +5V #PWR05
-U 1 1 5B9A8D99
-P 3400 7450
-F 0 "#PWR05" H 3400 7300 50  0001 C CNN
-F 1 "+5V" H 3400 7590 50  0000 C CNN
-F 2 "" H 3400 7450 50  0001 C CNN
-F 3 "" H 3400 7450 50  0001 C CNN
-	1    3400 7450
-	-1   0    0    1   
-$EndComp
 Text GLabel 5150 800  0    60   Input ~ 0
 BAT+
 $Comp
