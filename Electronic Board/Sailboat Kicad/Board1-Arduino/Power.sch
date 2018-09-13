@@ -373,12 +373,29 @@ Wire Wire Line
 Wire Wire Line
 	3400 3800 3400 4050
 Wire Wire Line
-	3400 4350 3100 4350
-Text HLabel 3550 3900 2    60   BiDi ~ 0
+	3100 4350 3650 4350
+Text HLabel 3700 3900 2    60   BiDi ~ 0
 A3
 Wire Wire Line
-	3550 3900 3400 3900
+	3400 3900 3700 3900
 Connection ~ 3400 3900
 Text Notes 2800 3350 0    60   ~ 0
 Battery tester :\n12V => 4.5V\n6V => 2.25V
+$Comp
+L C_Small C5
+U 1 1 5B9AD1C3
+P 3650 4200
+F 0 "C5" H 3660 4270 50  0000 L CNN
+F 1 "1uF" H 3660 4120 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 3650 4200 50  0001 C CNN
+F 3 "" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3900 3650 4100
+Connection ~ 3650 3900
+Wire Wire Line
+	3650 4350 3650 4300
+Connection ~ 3400 4350
 $EndSCHEMATC
