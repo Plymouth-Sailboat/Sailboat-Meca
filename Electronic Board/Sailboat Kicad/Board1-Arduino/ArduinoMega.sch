@@ -101,21 +101,21 @@ F 3 "" H 6400 4050 50  0001 C CNN
 	1    6400 4050
 	1    0    0    -1  
 $EndComp
-Text HLabel 9500 2650 2    60   BiDi ~ 0
+Text HLabel 9950 2650 2    60   BiDi ~ 0
 AREF
-Text HLabel 9500 2750 2    60   BiDi ~ 0
+Text HLabel 9950 2750 2    60   BiDi ~ 0
 GND
-Text HLabel 9500 2850 2    60   BiDi ~ 0
+Text HLabel 9950 2850 2    60   BiDi ~ 0
 13
-Text HLabel 9500 2950 2    60   BiDi ~ 0
+Text HLabel 9950 2950 2    60   BiDi ~ 0
 12
-Text HLabel 9500 3050 2    60   BiDi ~ 0
+Text HLabel 9950 3050 2    60   BiDi ~ 0
 11
-Text HLabel 9500 3150 2    60   BiDi ~ 0
+Text HLabel 9950 3150 2    60   BiDi ~ 0
 10
-Text HLabel 9500 3250 2    60   BiDi ~ 0
+Text HLabel 9950 3250 2    60   BiDi ~ 0
 9
-Text HLabel 9500 3350 2    60   BiDi ~ 0
+Text HLabel 9950 3350 2    60   BiDi ~ 0
 8
 Text HLabel 9500 3600 2    60   BiDi ~ 0
 7
@@ -149,22 +149,6 @@ Text HLabel 9500 5150 2    60   BiDi ~ 0
 20-SDA
 Text HLabel 9500 5250 2    60   BiDi ~ 0
 21-SCL
-Wire Wire Line
-	9400 2650 9500 2650
-Wire Wire Line
-	9500 2750 9400 2750
-Wire Wire Line
-	9400 2850 9500 2850
-Wire Wire Line
-	9500 2950 9400 2950
-Wire Wire Line
-	9400 3050 9500 3050
-Wire Wire Line
-	9500 3150 9400 3150
-Wire Wire Line
-	9400 3250 9500 3250
-Wire Wire Line
-	9500 3350 9400 3350
 Wire Wire Line
 	9400 3600 9500 3600
 Wire Wire Line
@@ -485,4 +469,71 @@ Wire Wire Line
 	9400 5500 9400 5150
 Text HLabel 9500 5950 2    60   BiDi ~ 0
 5V
+$Comp
+L Conn_01x08 J27
+U 1 1 5B9ADC25
+P 9200 2050
+F 0 "J27" H 9200 2450 50  0000 C CNN
+F 1 "Conn_01x08" H 9200 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9200 2050 50  0001 C CNN
+F 3 "" H 9200 2050 50  0001 C CNN
+	1    9200 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3350 9950 3350
+Wire Wire Line
+	9450 3350 9450 2450
+Wire Wire Line
+	9450 2450 9400 2450
+Wire Wire Line
+	9400 3250 9950 3250
+Wire Wire Line
+	9500 3250 9500 2350
+Wire Wire Line
+	9500 2350 9400 2350
+Wire Wire Line
+	9400 3150 9950 3150
+Wire Wire Line
+	9550 3150 9550 2250
+Wire Wire Line
+	9550 2250 9400 2250
+Wire Wire Line
+	9400 3050 9950 3050
+Wire Wire Line
+	9600 3050 9600 2150
+Wire Wire Line
+	9600 2150 9400 2150
+Wire Wire Line
+	9400 2950 9950 2950
+Wire Wire Line
+	9650 2950 9650 2050
+Wire Wire Line
+	9650 2050 9400 2050
+Wire Wire Line
+	9400 2850 9950 2850
+Wire Wire Line
+	9700 2850 9700 1950
+Wire Wire Line
+	9700 1950 9400 1950
+Wire Wire Line
+	9400 2750 9950 2750
+Wire Wire Line
+	9750 2750 9750 1850
+Wire Wire Line
+	9750 1850 9400 1850
+Wire Wire Line
+	9400 2650 9950 2650
+Wire Wire Line
+	9800 2650 9800 1750
+Wire Wire Line
+	9800 1750 9400 1750
+Connection ~ 9800 2650
+Connection ~ 9750 2750
+Connection ~ 9700 2850
+Connection ~ 9650 2950
+Connection ~ 9600 3050
+Connection ~ 9550 3150
+Connection ~ 9500 3250
+Connection ~ 9450 3350
 $EndSCHEMATC
