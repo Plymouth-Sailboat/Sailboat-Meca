@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Arduino Interface-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,61 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Conn_01x08 J6
-U 1 1 5A0CB4F8
-P 9200 2950
-F 0 "J6" H 9200 3350 50  0000 C CNN
-F 1 "Conn_01x08" H 9200 2450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9200 2950 50  0001 C CNN
-F 3 "" H 9200 2950 50  0001 C CNN
-	1    9200 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x08 J7
-U 1 1 5A0CB552
-P 9200 3900
-F 0 "J7" H 9200 4300 50  0000 C CNN
-F 1 "Conn_01x08" H 9200 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9200 3900 50  0001 C CNN
-F 3 "" H 9200 3900 50  0001 C CNN
-	1    9200 3900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x08 J8
-U 1 1 5A0CB57C
-P 9200 4850
-F 0 "J8" H 9200 5250 50  0000 C CNN
-F 1 "Conn_01x08" H 9200 4350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9200 4850 50  0001 C CNN
-F 3 "" H 9200 4850 50  0001 C CNN
-	1    9200 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x08 J4
-U 1 1 5A0CB6B4
-P 6400 5050
-F 0 "J4" H 6400 5450 50  0000 C CNN
-F 1 "Conn_01x08" H 6400 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6400 5050 50  0001 C CNN
-F 3 "" H 6400 5050 50  0001 C CNN
-	1    6400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x08 J3
-U 1 1 5A0CB705
-P 6400 4050
-F 0 "J3" H 6400 4450 50  0000 C CNN
-F 1 "Conn_01x08" H 6400 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6400 4050 50  0001 C CNN
-F 3 "" H 6400 4050 50  0001 C CNN
-	1    6400 4050
-	1    0    0    -1  
-$EndComp
 Text HLabel 9950 2650 2    60   BiDi ~ 0
 AREF
 Text HLabel 9950 2750 2    60   BiDi ~ 0
@@ -409,50 +322,28 @@ Text HLabel 7000 6100 3    60   BiDi ~ 0
 53
 Text HLabel 7100 6100 3    60   BiDi ~ 0
 51
-$Comp
-L Conn_02x18_Odd_Even J5
-U 1 1 5A0CC6EF
-P 7800 5700
-F 0 "J5" H 7850 6600 50  0000 C CNN
-F 1 "Conn_02x18_Odd_Even" H 7850 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 7800 5700 50  0001 C CNN
-F 3 "" H 7800 5700 50  0001 C CNN
-	1    7800 5700
-	0    1    1    0   
-$EndComp
 NoConn ~ 8600 5400
 NoConn ~ 8600 6100
-$Comp
-L Conn_01x08 J2
-U 1 1 5A997527
-P 6400 3100
-F 0 "J2" H 6400 3500 50  0000 C CNN
-F 1 "Conn_01x08" H 6400 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6400 3100 50  0001 C CNN
-F 3 "" H 6400 3100 50  0001 C CNN
-	1    6400 3100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6200 2900
 NoConn ~ 6200 2800
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5AB57136
 P 9500 5600
 F 0 "R3" V 9580 5600 50  0000 C CNN
 F 1 "4k7" V 9500 5600 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9430 5600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9430 5600 50  0001 C CNN
 F 3 "" H 9500 5600 50  0001 C CNN
 	1    9500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5AB57198
 P 9400 5650
 F 0 "R2" V 9480 5650 50  0000 C CNN
 F 1 "4k7" V 9400 5650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9330 5650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9330 5650 50  0001 C CNN
 F 3 "" H 9400 5650 50  0001 C CNN
 	1    9400 5650
 	1    0    0    -1  
@@ -465,65 +356,52 @@ Wire Wire Line
 	9400 5950 9500 5950
 Wire Wire Line
 	9500 5450 9500 5250
-Wire Wire Line
-	9400 5500 9400 5150
 Text HLabel 9500 5950 2    60   BiDi ~ 0
 5V
-$Comp
-L Conn_01x08 J27
-U 1 1 5B9ADC25
-P 9200 2050
-F 0 "J27" H 9200 2450 50  0000 C CNN
-F 1 "Conn_01x08" H 9200 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9200 2050 50  0001 C CNN
-F 3 "" H 9200 2050 50  0001 C CNN
-	1    9200 2050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	9400 3350 9950 3350
+	9400 3350 9450 3350
 Wire Wire Line
 	9450 3350 9450 2450
 Wire Wire Line
 	9450 2450 9400 2450
 Wire Wire Line
-	9400 3250 9950 3250
+	9400 3250 9500 3250
 Wire Wire Line
 	9500 3250 9500 2350
 Wire Wire Line
 	9500 2350 9400 2350
 Wire Wire Line
-	9400 3150 9950 3150
+	9400 3150 9550 3150
 Wire Wire Line
 	9550 3150 9550 2250
 Wire Wire Line
 	9550 2250 9400 2250
 Wire Wire Line
-	9400 3050 9950 3050
+	9400 3050 9600 3050
 Wire Wire Line
 	9600 3050 9600 2150
 Wire Wire Line
 	9600 2150 9400 2150
 Wire Wire Line
-	9400 2950 9950 2950
+	9400 2950 9650 2950
 Wire Wire Line
 	9650 2950 9650 2050
 Wire Wire Line
 	9650 2050 9400 2050
 Wire Wire Line
-	9400 2850 9950 2850
+	9400 2850 9700 2850
 Wire Wire Line
 	9700 2850 9700 1950
 Wire Wire Line
 	9700 1950 9400 1950
 Wire Wire Line
-	9400 2750 9950 2750
+	9400 2750 9750 2750
 Wire Wire Line
 	9750 2750 9750 1850
 Wire Wire Line
 	9750 1850 9400 1850
 Wire Wire Line
-	9400 2650 9950 2650
+	9400 2650 9800 2650
 Wire Wire Line
 	9800 2650 9800 1750
 Wire Wire Line
@@ -536,4 +414,111 @@ Connection ~ 9600 3050
 Connection ~ 9550 3150
 Connection ~ 9500 3250
 Connection ~ 9450 3350
+Wire Wire Line
+	9800 2650 9950 2650
+Wire Wire Line
+	9750 2750 9950 2750
+Wire Wire Line
+	9700 2850 9950 2850
+Wire Wire Line
+	9650 2950 9950 2950
+Wire Wire Line
+	9600 3050 9950 3050
+Wire Wire Line
+	9550 3150 9950 3150
+Wire Wire Line
+	9500 3250 9950 3250
+Wire Wire Line
+	9450 3350 9950 3350
+$Comp
+L Connector:Conn_01x08_Male J27
+U 1 1 5CFFF8D2
+P 6400 4050
+F 0 "J27" H 6373 4023 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6373 3932 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 4050 50  0001 C CNN
+F 3 "~" H 6400 4050 50  0001 C CNN
+	1    6400 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J28
+U 1 1 5CFFFAC8
+P 6400 5050
+F 0 "J28" H 6373 5023 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6373 4932 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 5050 50  0001 C CNN
+F 3 "~" H 6400 5050 50  0001 C CNN
+	1    6400 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J32
+U 1 1 5CFFFAF0
+P 9200 3900
+F 0 "J32" H 9306 4378 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9306 4287 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9200 3900 50  0001 C CNN
+F 3 "~" H 9200 3900 50  0001 C CNN
+	1    9200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J33
+U 1 1 5CFFFB62
+P 9200 4850
+F 0 "J33" H 9306 5328 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9306 5237 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9200 4850 50  0001 C CNN
+F 3 "~" H 9200 4850 50  0001 C CNN
+	1    9200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J31
+U 1 1 5CFFFB9C
+P 9200 2950
+F 0 "J31" H 9306 3428 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9306 3337 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9200 2950 50  0001 C CNN
+F 3 "~" H 9200 2950 50  0001 C CNN
+	1    9200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J30
+U 1 1 5CFFFC14
+P 9200 2050
+F 0 "J30" H 9306 2528 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9306 2437 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9200 2050 50  0001 C CNN
+F 3 "~" H 9200 2050 50  0001 C CNN
+	1    9200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J26
+U 1 1 5CFFFD42
+P 6400 3100
+F 0 "J26" H 6373 3073 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6373 2982 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 3100 50  0001 C CNN
+F 3 "~" H 6400 3100 50  0001 C CNN
+	1    6400 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J29
+U 1 1 5D0004CB
+P 7800 5700
+F 0 "J29" V 7804 4713 50  0000 R CNN
+F 1 "Conn_02x18_Odd_Even" V 7895 4713 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 7800 5700 50  0001 C CNN
+F 3 "~" H 7800 5700 50  0001 C CNN
+	1    7800 5700
+	0    1    1    0   
+$EndComp
+Connection ~ 9400 5150
+Wire Wire Line
+	9400 5150 9400 5500
 $EndSCHEMATC
