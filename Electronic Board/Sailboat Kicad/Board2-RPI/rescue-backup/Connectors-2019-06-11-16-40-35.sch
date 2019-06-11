@@ -1,6 +1,38 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:RPi Interface-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,11 +49,9 @@ $EndDescr
 Text Notes 5100 3950 0    60   ~ 0
 Internal Connections
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J25
+L Conn_01x03_Female J25
 U 1 1 5A99D713
 P 5400 4350
-AR Path="/5A99D713" Ref="J25"  Part="1" 
-AR Path="/5A0C1F5F/5A99D713" Ref="J25"  Part="1" 
 F 0 "J25" H 5400 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 5400 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 5400 4350 50  0001 C CNN
@@ -30,7 +60,7 @@ F 3 "" H 5400 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR017
+L GND #PWR017
 U 1 1 5A99E7F5
 P 5700 4250
 F 0 "#PWR017" H 5700 4000 50  0001 C CNN
@@ -42,11 +72,9 @@ F 3 "" H 5700 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 5600 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J26
+L Conn_01x03_Female J26
 U 1 1 5A99F5B6
 P 6300 4350
-AR Path="/5A99F5B6" Ref="J26"  Part="1" 
-AR Path="/5A0C1F5F/5A99F5B6" Ref="J26"  Part="1" 
 F 0 "J26" H 6300 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 6300 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 6300 4350 50  0001 C CNN
@@ -55,7 +83,7 @@ F 3 "" H 6300 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR018
+L GND #PWR018
 U 1 1 5A99F5BD
 P 6600 4250
 F 0 "#PWR018" H 6600 4000 50  0001 C CNN
@@ -67,11 +95,9 @@ F 3 "" H 6600 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 6500 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J27
+L Conn_01x03_Female J27
 U 1 1 5A99F675
 P 7200 4350
-AR Path="/5A99F675" Ref="J27"  Part="1" 
-AR Path="/5A0C1F5F/5A99F675" Ref="J27"  Part="1" 
 F 0 "J27" H 7200 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 7200 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7200 4350 50  0001 C CNN
@@ -80,7 +106,7 @@ F 3 "" H 7200 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR019
+L GND #PWR019
 U 1 1 5A99F67C
 P 7500 4250
 F 0 "#PWR019" H 7500 4000 50  0001 C CNN
@@ -92,11 +118,9 @@ F 3 "" H 7500 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 7400 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J28
+L Conn_01x03_Female J28
 U 1 1 5A99F685
 P 8100 4350
-AR Path="/5A99F685" Ref="J28"  Part="1" 
-AR Path="/5A0C1F5F/5A99F685" Ref="J28"  Part="1" 
 F 0 "J28" H 8100 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 8100 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 8100 4350 50  0001 C CNN
@@ -105,7 +129,7 @@ F 3 "" H 8100 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR020
+L GND #PWR020
 U 1 1 5A99F68C
 P 8400 4250
 F 0 "#PWR020" H 8400 4000 50  0001 C CNN
@@ -117,11 +141,9 @@ F 3 "" H 8400 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 8300 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J29
+L Conn_01x03_Female J29
 U 1 1 5A99F7C0
 P 8950 4350
-AR Path="/5A99F7C0" Ref="J29"  Part="1" 
-AR Path="/5A0C1F5F/5A99F7C0" Ref="J29"  Part="1" 
 F 0 "J29" H 8950 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 8950 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 8950 4350 50  0001 C CNN
@@ -130,7 +152,7 @@ F 3 "" H 8950 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR021
+L GND #PWR021
 U 1 1 5A99F7C7
 P 9250 4250
 F 0 "#PWR021" H 9250 4000 50  0001 C CNN
@@ -142,11 +164,9 @@ F 3 "" H 9250 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 9150 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J30
+L Conn_01x03_Female J30
 U 1 1 5A99F7D0
 P 9850 4350
-AR Path="/5A99F7D0" Ref="J30"  Part="1" 
-AR Path="/5A0C1F5F/5A99F7D0" Ref="J30"  Part="1" 
 F 0 "J30" H 9850 4550 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 9850 4150 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9850 4350 50  0001 C CNN
@@ -155,7 +175,7 @@ F 3 "" H 9850 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 5A99F7D7
 P 10150 4250
 F 0 "#PWR022" H 10150 4000 50  0001 C CNN
@@ -167,7 +187,7 @@ F 3 "" H 10150 4250 50  0001 C CNN
 $EndComp
 NoConn ~ 10050 4350
 $Comp
-L RPi-Interface-rescue:Conn_01x08_Female J33
+L Conn_01x08_Female J33
 U 1 1 5A9C185B
 P 5400 5250
 F 0 "J33" H 5400 5650 50  0000 C CNN
@@ -179,7 +199,7 @@ F 3 "" H 5400 5250 50  0001 C CNN
 $EndComp
 NoConn ~ 5600 5050
 $Comp
-L power:GND #PWR023
+L GND #PWR023
 U 1 1 5A9C1B71
 P 5650 5150
 F 0 "#PWR023" H 5650 4900 50  0001 C CNN
@@ -190,7 +210,7 @@ F 3 "" H 5650 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RPi-Interface-rescue:Conn_02x02_Odd_Even J3
+L Conn_02x02_Odd_Even J3
 U 1 1 5AB332A9
 P 8350 5400
 F 0 "J3" H 8400 5500 50  0000 C CNN
@@ -201,7 +221,7 @@ F 3 "" H 8350 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L GND #PWR024
 U 1 1 5AB332FC
 P 8050 5400
 F 0 "#PWR024" H 8050 5150 50  0001 C CNN
@@ -212,7 +232,7 @@ F 3 "" H 8050 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR025
+L GND #PWR025
 U 1 1 5AB3332F
 P 8050 5500
 F 0 "#PWR025" H 8050 5250 50  0001 C CNN
@@ -227,7 +247,7 @@ Text HLabel 8750 5500 2    60   BiDi ~ 0
 Text GLabel 8750 5400 2    60   Input ~ 0
 5V-Sensors
 $Comp
-L RPi-Interface-rescue:Conn_01x06 J1
+L Conn_01x06 J1
 U 1 1 5AB3357B
 P 4050 4500
 F 0 "J1" H 4050 4800 50  0000 C CNN
@@ -238,7 +258,7 @@ F 3 "" H 4050 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L RPi-Interface-rescue:Conn_01x06 J2
+L Conn_01x06 J2
 U 1 1 5AB336AC
 P 4050 5400
 F 0 "J2" H 4050 5700 50  0000 C CNN
@@ -374,11 +394,9 @@ RC_5
 Text GLabel 10150 4450 2    60   Input ~ 0
 RC_6
 $Comp
-L RPi-Interface-rescue:Conn_01x03_Female J4
+L Conn_01x03_Female J4
 U 1 1 5AB545C7
 P 9850 4950
-AR Path="/5AB545C7" Ref="J4"  Part="1" 
-AR Path="/5A0C1F5F/5AB545C7" Ref="J4"  Part="1" 
 F 0 "J4" H 9850 5150 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 9850 4750 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9850 4950 50  0001 C CNN
@@ -387,7 +405,7 @@ F 3 "" H 9850 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR026
+L GND #PWR026
 U 1 1 5AB5461E
 P 10150 4850
 F 0 "#PWR026" H 10150 4600 50  0001 C CNN

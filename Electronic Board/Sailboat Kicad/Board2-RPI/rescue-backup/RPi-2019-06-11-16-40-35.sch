@@ -1,6 +1,38 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:RPi Interface-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5A9800E2
 P 5450 2900
 F 0 "#PWR01" H 5450 2650 50  0001 C CNN
@@ -26,7 +58,7 @@ F 3 "" H 5450 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5A98011C
 P 5450 3300
 F 0 "#PWR02" H 5450 3050 50  0001 C CNN
@@ -37,7 +69,7 @@ F 3 "" H 5450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5A98012A
 P 5450 3600
 F 0 "#PWR03" H 5450 3350 50  0001 C CNN
@@ -48,7 +80,7 @@ F 3 "" H 5450 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5A980138
 P 4750 3900
 F 0 "#PWR04" H 4750 3650 50  0001 C CNN
@@ -59,7 +91,7 @@ F 3 "" H 4750 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5A980146
 P 4750 3100
 F 0 "#PWR05" H 4750 2850 50  0001 C CNN
@@ -160,7 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2700 5450 2700
 $Comp
-L RPi-Interface-rescue:Conn_02x20_Odd_Even J23
+L Conn_02x20_Odd_Even J23
 U 1 1 5A96ABD6
 P 5150 3600
 F 0 "J23" H 5200 4600 50  0000 C CNN
@@ -171,7 +203,7 @@ F 3 "" H 5150 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5A96AC1D
 P 5450 4100
 F 0 "#PWR06" H 5450 3850 50  0001 C CNN
@@ -182,7 +214,7 @@ F 3 "" H 5450 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5A96AC2B
 P 5450 4300
 F 0 "#PWR07" H 5450 4050 50  0001 C CNN
@@ -193,7 +225,7 @@ F 3 "" H 5450 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L GND #PWR08
 U 1 1 5A96AC39
 P 4750 4600
 F 0 "#PWR08" H 4750 4350 50  0001 C CNN
@@ -256,7 +288,7 @@ Wire Wire Line
 NoConn ~ 4750 2700
 NoConn ~ 4750 3500
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5B0E51D8
 P 7200 2900
 F 0 "#PWR09" H 7200 2650 50  0001 C CNN
@@ -267,7 +299,7 @@ F 3 "" H 7200 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 5B0E51DE
 P 7200 3300
 F 0 "#PWR010" H 7200 3050 50  0001 C CNN
@@ -278,7 +310,7 @@ F 3 "" H 7200 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5B0E51E4
 P 7200 3600
 F 0 "#PWR011" H 7200 3350 50  0001 C CNN
@@ -289,7 +321,7 @@ F 3 "" H 7200 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L GND #PWR012
 U 1 1 5B0E51EA
 P 6500 3900
 F 0 "#PWR012" H 6500 3650 50  0001 C CNN
@@ -300,7 +332,7 @@ F 3 "" H 6500 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR013
+L GND #PWR013
 U 1 1 5B0E51F0
 P 6500 3100
 F 0 "#PWR013" H 6500 2850 50  0001 C CNN
@@ -401,7 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2700 7200 2700
 $Comp
-L RPi-Interface-rescue:Conn_02x20_Odd_Even J5
+L Conn_02x20_Odd_Even J5
 U 1 1 5B0E5223
 P 6900 3600
 F 0 "J5" H 6950 4600 50  0000 C CNN
@@ -412,7 +444,7 @@ F 3 "" H 6900 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L GND #PWR014
 U 1 1 5B0E5229
 P 7200 4100
 F 0 "#PWR014" H 7200 3850 50  0001 C CNN
@@ -423,7 +455,7 @@ F 3 "" H 7200 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR015
+L GND #PWR015
 U 1 1 5B0E522F
 P 7200 4300
 F 0 "#PWR015" H 7200 4050 50  0001 C CNN
@@ -434,7 +466,7 @@ F 3 "" H 7200 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 5B0E5235
 P 6500 4600
 F 0 "#PWR016" H 6500 4350 50  0001 C CNN

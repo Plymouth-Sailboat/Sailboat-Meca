@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# RPi-Interface-rescue_Conn_01x03_Female
+# Conn_01x03_Female
 #
-DEF RPi-Interface-rescue_Conn_01x03_Female J 0 40 Y N 1 F N
+DEF Conn_01x03_Female J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "RPi-Interface-rescue_Conn_01x03_Female" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -27,11 +27,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RPi-Interface-rescue_Conn_01x06
+# Conn_01x06
 #
-DEF RPi-Interface-rescue_Conn_01x06 J 0 40 Y N 1 F N
+DEF Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "RPi-Interface-rescue_Conn_01x06" 0 -400 50 H V C CNN
+F1 "Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RPi-Interface-rescue_Conn_01x08_Female
+# Conn_01x08_Female
 #
-DEF RPi-Interface-rescue_Conn_01x08_Female J 0 40 Y N 1 F N
+DEF Conn_01x08_Female J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "RPi-Interface-rescue_Conn_01x08_Female" 0 -500 50 H V C CNN
+F1 "Conn_01x08_Female" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +100,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RPi-Interface-rescue_Conn_02x02_Odd_Even
+# Conn_02x02_Odd_Even
 #
-DEF RPi-Interface-rescue_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x02_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "RPi-Interface-rescue_Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
+F1 "Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RPi-Interface-rescue_Conn_02x20_Odd_Even
+# Conn_02x20_Odd_Even
 #
-DEF RPi-Interface-rescue_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+DEF Conn_02x20_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "RPi-Interface-rescue_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F1 "Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -225,19 +225,6 @@ X Pin_6 6 300 700 150 L 50 50 1 1 P
 X Pin_7 7 -200 600 150 R 50 50 1 1 P
 X Pin_8 8 300 600 150 L 50 50 1 1 P
 X Pin_9 9 -200 500 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
