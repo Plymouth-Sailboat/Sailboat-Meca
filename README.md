@@ -13,6 +13,9 @@ You fill find the 3D prints for waterproofing our sensors and the complete KiCad
 
 # Custom Circuit Board
 
+
+![Arduino Interface Board](https://raw.githubusercontent.com/Plymouth-Sailboat/plymouth-sailboat.github.io/master/img/Wiki/ArduinoPin.png)
+
 Our custom board is composed of two boards, stacking with each others. One stacking with the Arduino Mega and another one stacking with the Raspberry Pi.
 These custom boards manages power, connection to sensors and motors and communications between Raspberry Pi, the Arduino and all the peripheral devices.
 
