@@ -7,6 +7,8 @@ This project was done by [Ulysse Vautier](https://ulyssevautier.github.io/) for 
 The goal of such a project is to make an affordable, accessible and expandable control box to transform a RC sailboat into an autonomous Sailboat easily. The control box costs £86 to make.  
 Once connected to the different sensors and actuators of the sailboat, it transforms it into an autonomous sailboat with already implemented navigation algorithms. Please see the [list of control algorithms](https://github.com/Plymouth-Sailboat/SailBoatROS/wiki/Controllers-List) already implemented.
 
+Another option is to use off-the-shelf Shields to act as a connector interface for the Arduino. This is a cheaper alternative to the custom board, but removes the compactness of it. This is explained in the [wiki](https://github.com/Plymouth-Sailboat/Sailboat-Meca/wiki).
+
 # Structure of this Repository
 
 You fill find the 3D prints for waterproofing our sensors and the complete KiCad project for our Custom Circuit Board. The KiCad projects come with 3D models of the boards and the Gerber files needed to manufacture them.
