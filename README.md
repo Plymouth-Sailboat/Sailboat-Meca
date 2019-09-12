@@ -13,8 +13,14 @@ Another option is to use off-the-shelf Shields to act as a connector interface f
 
 You fill find the 3D prints for waterproofing our sensors and the complete KiCad project for our Custom Circuit Board. The KiCad projects come with 3D models of the boards and the Gerber files needed to manufacture them.
 
-# Custom Circuit Board
+# Off-The-Shelf System
 
+![Assembled System](https://raw.githubusercontent.com/Plymouth-Sailboat/plymouth-sailboat.github.io/master/img/Wiki/off-the-shelf.JPG)
+
+This is a new hardware architecture using mostly commercial modules for Arduino and Raspberry Pi, using [SeeedStudio grove shields](http://wiki.seeedstudio.com/Grove_System/). This version is a bit bigger but a cheaper and more easily attainable than manufactured custom boards.  
+All the previous components used are still compatible, only connectors need to be changed. Also the battery used are Li-ion battery packs now. Everything is explained in the [wiki](https://github.com/Plymouth-Sailboat/Sailboat-Meca/wiki).
+
+# Custom Circuit Board
 
 ![Arduino Interface Board](https://raw.githubusercontent.com/Plymouth-Sailboat/plymouth-sailboat.github.io/master/img/Wiki/ArduinoPin.png)
 
