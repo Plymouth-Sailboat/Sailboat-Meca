@@ -9,6 +9,15 @@ Once connected to the different sensors and actuators of the sailboat, it transf
 
 Another option is to use off-the-shelf Shields to act as a connector interface for the Arduino. This is a cheaper alternative to the custom board, but removes the compactness of it. This is explained in the [wiki](https://github.com/Plymouth-Sailboat/Sailboat-Meca/wiki).
 
+**For more information look at the Wikis. The project is separated into 3 categories : [SailboatMeca](https://github.com/Plymouth-Sailboat/Sailboat-Meca), [SailBoatROS](https://github.com/Plymouth-Sailboat/SailBoatROS) and [SailboatArduinoInterface](https://github.com/Plymouth-Sailboat/SailBoatArduinoInterface).**
+
+**[SailboatMeca](https://github.com/Plymouth-Sailboat/Sailboat-Meca) explains the hardware configuration of the boat. The sensors that are used, how to build the control box and how to attach all the components to the control box.**
+
+**[SailBoatROS](https://github.com/Plymouth-Sailboat/SailBoatROS) contains the code on the Raspberry Pi. It explains how to have a full environment ready on the Raspberry Pi 3B and Raspberry Pi 3B+ to have a working boat.**
+
+**[SailBoatArduinoInterface](https://github.com/Plymouth-Sailboat/SailBoatArduinoInterface) explains how to upload the code to the Arduino. It also explains how to change the configuration files or how to add sensors to comply with your hardware configuration.  
+Please look at all their wikis and READMEs.**
+
 # Structure of this Repository
 
 You fill find the 3D prints for waterproofing our sensors and the complete KiCad project for our Custom Circuit Board. The KiCad projects come with 3D models of the boards and the Gerber files needed to manufacture them.
